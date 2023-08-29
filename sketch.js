@@ -7,19 +7,19 @@ var database, gameState;
 var form, player, playerCount;
 
 //matriz para carros 
-var cars = [];
+
 
 //para guardar informações de todos os jogadores, sprite de carro1, sprite de carro2
-var allPlayers, car1, car2;
+var allPlayers;
 
-//imagens: fundo, carro1, carro2, pista
-var backgroundImage, bgImg, car1_img, car2_img, track;
+//imagens: fundo, carro1, carro2, pista(track)
+var backgroundImage, bgImg;
 
 
 function preload() {
   backgroundImage = loadImage("./assets/planodefundo.png");
   //criar o carregamento de imagens: car1_img, car2_img, track (variáveis na linha 16)
-  car1_img = loadImage("./assets/car1.png");
+  
 
 
 
