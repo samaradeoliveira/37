@@ -11,11 +11,7 @@ class Game {
   }
 
   //update para atualizar o gamestate no banco de dados, criar na linha abaixo
-  update(state){
-   database.ref("/").update({
-    gameState: state
-   });
-  }
+  
 
 
 
@@ -33,12 +29,11 @@ class Game {
 
 
     //sprites dos carros
-    car1 = createSprite(width / 2 - 50, height - 100);
+    
    //adc IMG e o scale
-   car1.addImage("car1", car1_img);
-   car1.scale = 0.07;
+  
 
-    car2 = createSprite(width / 2 + 100, height - 100);
+    
     //adc a imagem e o scale 
 
 
